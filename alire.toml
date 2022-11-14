@@ -1,0 +1,9 @@
+name = "units_demo"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Zack Boll"]
+maintainers = ["Zack Boll <zackboll@gmail.com>"]
+maintainers-logins = ["zackboll"]
+
+executables = ["units_demo"]
