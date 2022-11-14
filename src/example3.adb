@@ -35,11 +35,11 @@ package body Example3 is
       use Units;
       use Elementary_Functions;
 
-      Gravity     : constant Acceleration := -9.8 * m / (s**2);
+      Gravity     : constant Acceleration := -9.8 * m / s;
       MJ_Vertical : constant Length       := 1.29 * m;
 
       Takeoff_Speed : Speed;
-      Hang_Time     : Time;
+      Hang_Time     : Speed;
 
    begin
 

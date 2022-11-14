@@ -32,7 +32,7 @@ package body Example1 is
       use Units;
 
       Plane_Acceleration : constant Acceleration := 3.2 * m / (s**2);
-      Elapsed_Time       : constant Time := 32.8 * s;
+      Elapsed_Time       : constant Time := 32.8;
 
       Takeoff_Distance : Length;
 

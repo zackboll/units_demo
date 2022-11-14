@@ -56,7 +56,7 @@ package body Example2 is
 
       use Units;
 
-      Number_Of_Turns      : constant := 500.0;
+      Number_Of_Turns      : constant Time := 500.0 * s;
       Coil_Magnetic_Flux   : constant Magnetic_Flux := 10.0 * mWb;
       Coil_DC_Current      : constant Electric_Current := 10.0 * A;
 
