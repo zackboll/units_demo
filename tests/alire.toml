@@ -1,0 +1,17 @@
+name = "tests"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Zack Boll"]
+maintainers = ["Zack Boll <zackboll@gmail.com>"]
+maintainers-logins = ["zackboll"]
+
+executables = ["tests"]
+[[depends-on]]
+units_demo = "~0.1.0-dev"
+[[pins]]
+units_demo = { path='..' }
+[[depends-on]]
+aunit = "^23.0.0"
+[[depends-on]]
+gnatcov = "^22.0.1"
