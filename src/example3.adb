@@ -35,11 +35,11 @@ package body Example3 is
       use Units;
       use Elementary_Functions;
 
-      Gravity     : constant Acceleration := -9.8 * m / s;
+      Gravity     : constant Acceleration := -9.8 * m / s**2;
       MJ_Vertical : constant Length       := 1.29 * m;
 
       Takeoff_Speed : Speed;
-      Hang_Time     : Speed;
+      Hang_Time     : Time;
 
    begin
 
@@ -50,7 +50,7 @@ package body Example3 is
       --
       --  Velocity_Final**2 = Velocity_Initial**2 + 2*a*d
       --
-      Takeoff_Speed := Sqrt (-2.0 * Gravity * MJ_Vertical);
+      Takeoff_Speed := (-2.0 * Gravity * MJ_Vertical);
 
       Ada.Text_IO.Put_Line
         ("Michael Jordan's takeoff speed was " & Takeoff_Speed'Img &
